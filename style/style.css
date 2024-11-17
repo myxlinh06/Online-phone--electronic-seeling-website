@@ -1,0 +1,165 @@
+/* ĐĂNG NHẬP */
+body {
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-container .message {
+  color: #666;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.login-container .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-container .message a:hover {
+  text-decoration: underline;
+}
+
+
+/* ĐĂNG KÝ */
+body {
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+  width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.register-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.register-container input[type="text"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.register-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.register-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.register-container .message {
+  color: #666;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.register-container .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.register-container .message a:hover {
+  text-decoration: underline;
+}
